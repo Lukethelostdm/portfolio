@@ -1,0 +1,1031 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , 
+body {
+    height: 100%;
+}
+
+.utility{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.intro{
+    max-width: 100%;
+    height: auto;
+    background-image: url(images/pageimg/static-website-concept-illustration.png);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.current-sub-text a{
+    display: block;
+    text-align: center;
+    padding: 0.9rem .5rem;
+    font-size: 2rem;
+    color: #000;
+    background-color: #FFA500;
+    gap: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "karla", serif;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+
+/*-------------------------------MEDIA------------------------------------------------------*/
+
+@media (min-width: 300px) {
+    .utility{
+        max-width: 300px;
+    }
+
+/*-------------------------------NAV------------------------------------------------------*/
+
+    .navigation{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: 'karla', sans-serif;
+        font-weight: 100;
+        font-size: 1rem;
+        background: linear-gradient(
+            to right,
+            red,
+            orange,
+            rgb(124, 124, 9),
+            rgb(6, 238, 6),
+            blue,
+            indigo,
+            violet,
+            red
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-stroke: 5px transparent;
+        -webkit-text-fill-color: white;
+    }
+
+/*-------------------------------INTRO------------------------------------------------------*/
+
+    .intro{
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .intro-container{
+        display: inline-block;
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .about ,
+    .about-subtitle {
+        width: 100%;
+        text-align: center;
+        font-family: 'Hind Siliguri' , sans-serif;
+        margin-top: 3rem;
+    }
+
+    .about{
+        font-size: 1rem;
+    }
+
+    .about-subtitle{
+        font-size: 1.3rem;
+    }
+    /*-------------------------------SKILLTEXT------------------------------------------------------*/
+
+    .skills{
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .skill-container{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background-color: #FFA500;
+        border-radius: 5px;
+        border: ridge #000 4px;
+    }
+
+    .skill-text{
+        width: 100%;
+        padding: .5rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .skill-title h1{
+        font-family: 'karla' , sans-serif;
+    }
+
+    .skill-sub-text{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 0 2rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+    }
+
+    /*-------------------------------Skillcolumns------------------------------------------------------*/
+
+    .skill-columns{
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0%;
+    }
+
+    .stage-container{
+        display: inline-block;
+        width: 100%;
+        height: -10rem;
+    }
+
+    .stage{
+        border: double;
+        border-radius: 50px;
+        width: 100%;
+        height: 100%;
+        margin: 1rem 0;
+        background-color: cornsilk;
+    }
+    
+    .stage-title{
+        text-align: center;
+        font-family: 'karla' , sans-serif;
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+
+    .stage-sub{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.2rem ;
+    }
+
+    .stage-list{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .fa-solid , 
+    .fa-regular{
+        font-size: 5rem;
+    }
+
+    .list-title{
+        font-size: 2rem;
+        margin: 3rem;
+        font-style: italic;
+    }
+    
+    .stage-list-order ul{
+        list-style: none;
+    }
+
+    .stage-list-order ul li{
+        margin-bottom: 1rem;
+    }
+
+    /*-------------------------------WORK------------------------------------------------------*/
+
+    .work{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .projects{
+        display: block;
+        width: 100;
+        height: 100%;
+        border-radius: 50px;
+        margin-bottom: 2rem;
+    }
+
+    .current ,
+    .current-sub-text{
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+        font-size: 1.5rem;
+        background: linear-gradient(
+            to right,
+            rgb(150, 7, 7),
+            rgb(233, 161, 27),
+            rgb(124, 124, 9),
+            rgb(147, 5, 248),
+            rgb(243, 100, 243),
+            rgb(228, 8, 8)
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-stroke: 5px transparent;
+        -webkit-text-fill-color: white;
+    }
+
+    .current-sub-text{
+        text-decoration: none;
+        color: #000;
+        font-size: 1.5rem;
+        width: 90%;
+    }
+
+    .work-container{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .previous-work-example{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .content-image img{
+        width: 100%;
+        height: auto;
+        border-radius: 50px;
+        border: #000;
+        box-shadow: #000 4px 4px 10px;
+    }
+
+    .content-text ,
+    .content-subtext{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        font-family: 'karla' , sans-serif;
+    }
+
+    .content-subtext{
+        font-style: italic;
+    }
+    /*-------------------------------contact------------------------------------------------------*/
+    .contact-full{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFA500;
+        border-radius: 50px;
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        margin: 0;
+    }
+
+    .contact-inputs{
+        width: 80vw;
+    }
+
+    .contact-container{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+    
+      .contact-left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+      }
+    
+      .contact-left-title h2{
+        font-weight: 600;
+        font-size: 40px;
+        margin-bottom: 5px;
+        font-family: "karla", serif;
+      }
+    
+      .contact-left-title hr{
+        border: none;
+        width: 240px;
+        height:5px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        background-color: #000;
+      }
+    
+      .contact-inputs{
+        height: 50px;
+        border: none;
+        outline: none;
+        padding-left: 25px;
+        font-weight: 500;
+        border-radius: 50px;
+        text-align: center;
+        width: auto;
+      }
+    
+      .contact-left textarea{
+        height: 140px;
+        padding-top: 15px;
+        border-radius: 20px;
+        width: 60vw;
+      }
+    
+      .contact-inputs:focus{
+        border: 2px solid #FFA500;
+      }
+    
+      .contact-inputs::placeholder{
+        color: #a9a9a9;
+      }
+    
+      .contact-left button{
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+        font-size: 16px;
+        color: #000;
+        background-color: #fff;
+        gap: 10px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-bottom: 2rem;
+        font-family: "karla", serif;
+      }
+    .contact-right{
+        display: none;
+    }
+
+    .contact-title ,
+    .tbtn {
+        padding: 1rem;
+        font-family: 'karla' , sans-serif;
+    }
+
+    .tbtn{
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+        font-size: 16px;
+        color: #000;
+        background-color: #fff;
+        gap: 10px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-bottom: 2rem;
+        font-family: "karla", serif;
+    }
+
+    .top{
+        color: #000;
+        text-decoration: none;
+    }
+
+        /*-------------------------------Footer------------------------------------------------------*/
+
+
+    .footer{
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        border-radius: 5px;
+    }
+
+    .foot-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: 'karla' , sans-serif;
+    }
+
+    .foot-row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-col h4{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        margin: 1rem;
+        text-decoration: underline;
+    }
+
+    .footer-col ul li{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        color: #000;
+        margin: .5rem;
+    }
+
+    .time{
+        font-style: italic;
+    }
+
+    .footer-col ul li a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    .dev{
+        margin: 1rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+        font-style: italic;
+    }
+
+}
+
+@media (min-width: 475px) {
+    .utility{
+        max-width: 475px;
+    }
+
+/*-------------------------------NAV------------------------------------------------------*/
+
+    .navigation{
+        display: block;
+        width: 100%;
+    }
+
+    .nav{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+/*-------------------------------INTRO------------------------------------------------------*/
+
+    .intro{
+        display: block;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .intro-container{
+        display: block;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .about ,
+    .about-subtitle {
+        width: 100%;
+        text-align: center;
+        font-family: 'Hind Siliguri' , sans-serif;
+        margin-top: 1rem;
+    }
+
+
+
+
+
+}
+
+@media (min-width: 640px) {
+    .utility{
+        max-width: 640px;
+    }
+
+/*-------------------------------NAV------------------------------------------------------*/
+
+    .navigation{
+        display: block;
+        width: 100%;
+    }
+
+    .nav{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+/*-------------------------------INTRO------------------------------------------------------*/
+
+    .intro{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/pageimg/static-website-concept-illustration.png);
+        background-position: bottom;
+        background-size: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .intro-container{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about ,
+    .about-subtitle {
+        width: 100%;
+        text-align: center;
+        font-family: 'Hind Siliguri' , sans-serif;
+        margin-top: .8rem;
+    }
+
+    .about{
+        font-size: 1.1rem;
+    }
+
+    .about-subtitle{
+        font-size: 1rem;
+    }
+
+    .stage{
+        height: 100%;
+    }
+
+    .current{
+        width: 90%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .current-sub-text{
+        font-size: 1.5rem;
+    }
+
+    .skill-title{
+        font-size: 1.5rem;
+    }
+
+    .skill-sub-text{
+        font-size: 1.4rem;
+    }
+
+    .stage-sub-text{
+        font-size: 1.5rem;
+    }
+
+    .content-subtext{
+        font-size: 1.3rem;
+    }
+
+    .contact-inputs::placeholder{
+        font-size: 1rem;
+      }
+    
+      .contact-left button{
+        font-size: 1.5rem;
+      }
+
+      .tbtn{
+        font-size: 1.5rem;
+      }
+
+      .footer-col ,
+      .footer-col h4{
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+      }
+
+      .footer-col li ,
+      .footer-col a
+      {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        padding-bottom: 1rem;
+      }
+
+      .fab{
+        margin-left: 3rem;
+      }
+
+
+      .footer-col{
+        width: 100%;
+        display: flex;
+        border-bottom: #000 solid;
+      }
+
+      .social-links{
+        margin-right: 3rem;
+      }
+}
+
+@media (min-width: 712px){
+    .utility{
+        max-width: 712px;
+    }
+    .intro{
+        background-image: url(images/pageimg/static-website-concept-illustration.png);
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .about ,
+    .about-subtitle {
+        width: 100%;
+        text-align: center;
+        font-family: 'Hind Siliguri' , sans-serif;
+        margin-top: 5rem;
+        padding: 0;
+    }
+
+    .about{
+        font-size: 3rem;
+    }
+
+    .about-subtitle{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .utility{
+        max-width: 768px;
+    }
+
+    .navigation{
+        display: block;
+        width: 100%;
+    }
+
+    .nav{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+/*-------------------------------INTRO------------------------------------------------------*/
+
+.intro{
+    background-image: url(images/pageimg/static-website-concept-illustration.png);
+    background-position: bottom;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+    .about ,
+    .about-subtitle {
+        width: 100%;
+        text-align: center;
+        font-family: 'Hind Siliguri' , sans-serif;
+        margin-top: 10rem;
+        padding: 0;
+    }
+
+    .about{
+        font-size: 2rem;
+    }
+
+    .about-subtitle{
+        font-size: 1.5rem;
+        padding: 0 2rem;
+    }
+
+}
+
+@media (min-width: 853px){
+    .utility{
+        max-width: 853px;
+    }
+    .intro{
+        background-image: url(images/pageimg/static-website-concept-illustration.png);
+        background-position: bottom;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .about ,
+    .about-subtitle {
+        width: 100%;
+        text-align: center;
+        font-family: 'Hind Siliguri' , sans-serif;
+        margin-top: 10rem;
+        padding: 0;
+    }
+
+    .about{
+        font-size: 2rem;
+    }
+
+    .about-subtitle{
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 896px) {
+    .utility{
+        max-width: 896px;
+    }
+
+    .navigation{
+        display: block;
+        width: 100%;
+    }
+
+    .nav{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+/*-------------------------------INTRO------------------------------------------------------*/
+
+.intro{
+    background-image: url(images/pageimg/static-website-concept-illustration.png);
+    background-position: bottom;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+    .about ,
+    .about-subtitle {
+        width: 100%;
+        text-align: center;
+        font-family: 'Hind Siliguri' , sans-serif;
+        margin-top: 1rem;
+        padding: 0;
+    }
+
+    .about{
+        font-size: 1.3rem;
+    }
+
+    .about-subtitle{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (min-width: 914px){
+    .utility{
+        max-width: 914px;
+    }
+    .intro{
+        background-image: url(images/pageimg/static-website-concept-illustration.png);
+        background-position: bottom;
+        background-size: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .about ,
+    .about-subtitle {
+        width: 100%;
+        text-align: center;
+        font-family: 'Hind Siliguri' , sans-serif;
+        margin-top: 1rem;
+        padding: 0;
+    }
+
+    .about{
+        font-size: 1rem;
+    }
+
+    .about-subtitle{
+        font-size: 1.2rem;
+    }
+}
+
+ @media (min-width: 1024px){
+    .utility{
+        max-width: 1024px;
+    }
+
+    .intro{
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: url(images/pageimg/static-website-concept-illustration.png);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .intro-container{
+        display: inline-block;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .about ,
+    .about-subtitle {
+        width: 100%;
+        text-align: center;
+        font-family: 'Hind Siliguri' , sans-serif;
+        margin-top: 4rem;
+        padding: 0 2rem;
+    }
+
+    .about{
+        font-size: 2rem;
+    }
+
+    .about-subtitle{
+        font-size: 1.3rem;
+    }
+
+
+    .skill-container{
+        padding-bottom: 5rem;
+    }
+
+    .skills{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 30%;
+        width: 100%;
+        height: 100%;
+        column-gap: 2rem;
+    }
+
+    .skill-columns{
+        display: block;
+        flex-basis: 30%;
+        width: 40%;
+        height: 100%;
+    }
+
+    .stage{
+        display: block;
+        flex-direction: row;
+        box-shadow: #000 8px 8px 8px;
+        height: 100vh;
+        margin-top: -3rem;
+        margin-left: 1rem;
+    }
+
+    .stage-list-order{
+        font-size: 1rem;
+        padding: 0 .5rem;
+    }
+
+    .current{
+        width: 100%;
+        text-align: center;
+    }
+
+    .work-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .previous-work-example{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-basis: 45%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content-image img{
+        width: 100%;
+        height: auto;
+        border-radius: 50px;
+        border: #000;
+        box-shadow: #000 8px 8px 10px;
+    }
+
+    .contact-inputs{
+        height: 50px;
+        border: none;
+        outline: none;
+        padding-left: 25px;
+        font-weight: 500;
+        border-radius: 50px;
+        text-align: center;
+        width: 90%;
+      }
+      .contact-left textarea{
+        width: 40vw;
+      }
+
+    .contact-right{
+        display: block;
+    }
+
+ }
+ @media (min-width: 1280px){
+    .utility{
+        max-width: 1280px;
+    }
+
+    .intro{
+        background-image: url(images/pageimg/static-website-concept-illustration.png);
+        background-position: bottom;
+        background-size: 50%;
+        background-repeat: no-repeat;
+    }
+
+    .about ,
+    .about-subtitle {
+        width: 100%;
+        text-align: center;
+        font-family: 'Hind Siliguri' , sans-serif;
+        margin-top: 5rem;
+        padding: 0;
+    }
+
+    .about{
+        font-size: 3rem;
+    }
+
+    .about-subtitle{
+        font-size: 1.5rem;
+    }
+
+
+    .current ,
+    .current-sub-text{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .stage-list-order li{
+        font-size: 2rem;
+    }
+ }
+@media (min-width: 1536px) {
+    .utility{
+        max-width: 1536px;
+    }
+
+    .stage{
+        margin-left: 3rem;
+    }
+}
