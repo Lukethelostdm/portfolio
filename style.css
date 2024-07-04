@@ -680,7 +680,7 @@ body {
     .intro{
         background-image: url(images/pageimg/static-website-concept-illustration.png);
         background-position: bottom;
-        background-size: contain;
+        background-size: 50%;
         background-repeat: no-repeat;
     }
 
@@ -689,16 +689,16 @@ body {
         width: 100%;
         text-align: center;
         font-family: 'Hind Siliguri' , sans-serif;
-        margin-top: 5rem;
+        margin-top: 1rem;
         padding: 0;
     }
 
     .about{
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
 
     .about-subtitle{
-        font-size: 2rem;
+        font-size: 1rem;
     }
 }
 
@@ -733,16 +733,16 @@ body {
         width: 100%;
         text-align: center;
         font-family: 'Hind Siliguri' , sans-serif;
-        margin-top: 10rem;
+        margin-top: 1rem;
         padding: 0;
     }
 
     .about{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .about-subtitle{
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding: 0 2rem;
     }
 
