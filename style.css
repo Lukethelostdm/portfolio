@@ -1028,4 +1028,26 @@ body {
     .stage{
         margin-left: 3rem;
     }
+    .work-container{
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contact-inputs{
+        height: 50px;
+        border: none;
+        outline: none;
+        padding-left: 25px;
+        font-weight: 500;
+        border-radius: 50px;
+        text-align: center;
+        width: 50%;
+      }
+      .contact-left textarea{
+        width: 20vw;
+      }
+
+    .contact-right{
+        display: block;
+    }
 }
